@@ -10,3 +10,8 @@ print(john_salary,  marta_salary)
 john_salary = str('12345')
 marta_salary = str('15432')
 print(john_salary,  marta_salary)
+
+john_salary = False
+marta_salary = True
+print(john_salary)
+print(marta_salary)
