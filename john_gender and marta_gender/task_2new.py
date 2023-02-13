@@ -39,3 +39,9 @@ peoples_names = ['Jon', 'Jon', 'Harry', 'Harry', 'Ahmed']
 
 print(set(peoples_names))
 
+#7
+
+tuple1 = ('43.219497', '27.961242')
+
+print(tuple1)
+
