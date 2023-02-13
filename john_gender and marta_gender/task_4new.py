@@ -11,7 +11,7 @@ john_salary = str('12345')
 marta_salary = str('15432')
 print(john_salary,  marta_salary)
 #4
-john_salary = False
-marta_salary = True
-print(john_salary)
-print(marta_salary)
+john_salary = 5
+marta_salary = 3
+print(john_salary > marta_salary)
+print(john_salary < marta_salary)
