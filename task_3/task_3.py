@@ -14,5 +14,12 @@ print(f"{friends[0]:>20}\n{friends[1]:>20}\n{friends[2]:>20}\n{friends[3]:>20}\n
 #3
 
 
+#4
+camel = ['FirstItem', 'FriendList', 'MyTuple']
+snake = ((f"{camel[0].lower()} {camel[1].lower()} {camel[2].lower()}"))
+
+print(snake.split())
+
+
 
 
