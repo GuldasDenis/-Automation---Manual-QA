@@ -23,12 +23,12 @@
 #
 # #3
 elements = [1, 2, 3, 4, 5, 6, 7, 8]
-list1 = []
-list2 = []
+odd_list = []
+even_list = []
 for index in range(len(elements)):
     if index % 2 == 0:
-        list1.append((index, elements[index]))
+        odd_list.append((index, elements[index]))
     else:
-        list2.append((index, elements[index]))
-print("Список кортежей с нечетными индексами:", list1)
-print("Список кортежей с четными индексами:", list2)
+        even_list.append((index, elements[index]))
+print("Список кортежей с нечетными индексами:", odd_list)
+print("Список кортежей с четными индексами:", even_list)
