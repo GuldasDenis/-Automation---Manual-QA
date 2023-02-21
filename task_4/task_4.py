@@ -32,3 +32,16 @@ for index in range(len(elements)):
         even_list.append((index, elements[index]))
 print("Список кортежей с нечетными индексами:", odd_list)
 print("Список кортежей с четными индексами:", even_list)
+
+#
+
+friends = ["John", "Marta", "James"]
+enemies = ["John", "Johnatan", "Artur"]
+
+for friend in friends:
+    if friend == "James":
+        print(f"{friend} is the best friend")
+    elif friend in enemies:
+        print(f"{friend} we are not friends anymore")
+    else:
+        print(f"{friend} we are the best friends")
